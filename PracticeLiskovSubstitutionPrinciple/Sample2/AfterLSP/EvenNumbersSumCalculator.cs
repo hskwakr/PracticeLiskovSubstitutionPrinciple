@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 
-namespace PracticeLiskovSubstitutionPrinciple.Sample2.AfterLSP
+namespace PracticeLiskovSubstitutionPrinciple.Sample2.BeforeLSP
 {
-    public class EvenNumbersSumCalculator : Calculator
+    public class EvenNumbersSumCalculator : SumCalculator
     {
         public EvenNumbersSumCalculator(int[] numbers) : base(numbers)
         { }
