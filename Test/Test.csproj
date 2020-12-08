@@ -17,4 +17,8 @@
     <ProjectReference Include="..\PracticeLiskovSubstitutionPrinciple\PracticeLiskovSubstitutionPrinciple.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Sample2\AfterLSP\" />
+  </ItemGroup>
+
 </Project>
